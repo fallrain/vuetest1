@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.test-table table {
+  margin: auto;
+}
+
+.test-table th,
+.test-table td {
+  border: 1px solid #ddd;
+  height: 38px;
+  line-height: 38px;
+  width: 200px;
+}
+
+.test-table th {
+  background: #4EEE94;
+}
+
+.test-table tr:nth-child(even) {
+  background: #e5e5e5;
+}
+
+.btn-gp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.suc-btn {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
